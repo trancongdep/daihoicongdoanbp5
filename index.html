@@ -215,56 +215,26 @@
             </ul>
         </section>
 
-                <!-- THƯ VIỆN ẢNH HOẠT ĐỘNG (IMAGE CAROUSEL) - ĐÃ DI CHUYỂN XUỐNG CUỐI -->
+        <!-- VIDEO HOẠT ĐỘNG (THAY THẾ CAROUSEL) -->
         <section class="p-0 rounded-xl">
             <h3 class="text-2xl font-bold text-red-700 border-b-2 border-red-300 pb-2 mb-4 flex items-center">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="w-6 h-6 mr-2 text-red-700">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="m2.25 15.75 5.159-5.159a2.25 2.25 0 0 1 3.182 0l5.159 5.159m-1.5-1.5 1.409-1.409a2.25 2.25 0 0 1 3.182 0l2.909 2.909m-18.272-5.468a2.25 2.25 0 0 1 0-3.182l5.159-5.159 1.59 1.59 5.159-5.159-5.159 5.159 5.159 5.159M9 17.25h.008v.008H9v-.008Z" />
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6.075c.983 0 1.83.606 2.078 1.5.248.894-.352 1.83-1.157 2.158-1.558.647-3.666-.35-4.524-1.928a3.75 3.75 0 0 1-1.282-2.316c-.248-.894.352-1.83 1.157-2.158 1.558-.647 3.666.35 4.524 1.928.857 1.577.625 3.195-.71 3.551zM11.25 10.5a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5z" />
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M21 21L3 21M3 3h18M3 21V3" />
                 </svg>
-                THƯ VIỆN ẢNH HOẠT ĐỘNG
+                VIDEO HOẠT ĐỘNG
             </h3>
             
-            <div class="carousel-container">
-                <div id="carousel-track" class="carousel-track">
-                    <!-- Slide 1: HOẠT ĐỘNG THỂ THAO -->
-                    <div class="carousel-slide">
-                        <!-- VUI LÒNG THAY THẾ LINK PLACEHOLDER NÀY BẰNG TÊN FILE ẢNH CỦA BẠN -->
-                        <img 
-                            src="https://placehold.co/800x300/facc15/991b1b?text=Hoat+dong+1%3A+The+thao" 
-                            alt="Ảnh Hoạt động Công đoàn - Thể thao"
-                        >
-                    </div>
-                    <!-- Slide 2: THĂM HỎI -->
-                    <div class="carousel-slide">
-                        <!-- VUI LÒNG THAY THẾ LINK PLACEHOLDER NÀY BẰNG TÊN FILE ẢNH CỦA BẠN -->
-                        <img 
-                            src="https://placehold.co/800x300/f87171/ffffff?text=Hoat+dong+2%3A+Tham+hoi" 
-                            alt="Ảnh Hoạt động Công đoàn - Thăm hỏi"
-                        >
-                    </div>
-                    <!-- Slide 3: TÌNH NGUYỆN -->
-                    <div class="carousel-slide">
-                        <!-- VUI LÒNG THAY THẾ LINK PLACEHOLDER NÀY BẰNG TÊN FILE ẢNH CỦA BẠN -->
-                        <img 
-                            src="https://placehold.co/800x300/4ade80/000000?text=Hoat+dong+3%3A+Tinh+nguyen" 
-                            alt="Ảnh Hoạt động Công đoàn - Tình nguyện"
-                        >
-                    </div>
-                </div>
-
-                <!-- Nút điều khiển -->
-                <button id="prev-btn" class="absolute top-1/2 left-2 transform -translate-y-1/2 bg-red-700/70 text-white p-2 rounded-full shadow-lg hover:bg-red-800 transition">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="3" stroke="currentColor" class="w-4 h-4">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5 8.25 12 15.75 4.5" />
-                    </svg>
-                </button>
-                <button id="next-btn" class="absolute top-1/2 right-2 transform -translate-y-1/2 bg-red-700/70 text-white p-2 rounded-full shadow-lg hover:bg-red-800 transition">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="3" stroke="currentColor" class="w-4 h-4">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
-                    </svg>
-                </button>
+            <div class="video-container">
+                <iframe 
+                    src="https://www.youtube.com/embed/VCWlm-zQBic?rel=0" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen
+                    title="Video Hoạt động Công đoàn"
+                ></iframe>
             </div>
-            <p class="text-center text-sm text-gray-500 mt-2">Vuốt trên màn hình hoặc sử dụng nút mũi tên để xem ảnh.</p>
+            <p class="text-center text-sm text-gray-500 mt-2">Video giới thiệu các hoạt động nổi bật của Công đoàn.</p>
         </section>
         
     </main>
@@ -277,6 +247,7 @@
 
 </body>
 </html>
+
 
 
 
